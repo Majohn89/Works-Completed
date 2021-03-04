@@ -22,11 +22,12 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available, in addition to restricting inbound access to the network.
-Load balancing plays an important security role as computing moves evermore to the cloud.
+- Load balancing plays an important security role as computing moves evermore to the cloud.
 The offloading function of a load balancer defends an organization from DDOS attacks. 
 It does this by shifting attack traffic from the corporate server to a public cloud provider.
 
-This system is utilizing jump box VM to manage the network. This is advantageous because we have implemented more hardened security measures on it and it can manage the other systerms within our security zone and overall network.
+This system is utilizing jump box VM to manage the network. 
+- This is advantageous because we have implemented more hardened security measures on it and it can manage the other systerms within our security zone and overall network.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the files of VMs on the network and system system metrics.
 - _TODO: What does Filebeat watch for?_
