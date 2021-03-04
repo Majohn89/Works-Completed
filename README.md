@@ -114,11 +114,11 @@ You will see this screen if the installation succeeded.
 
 Repeat this process for the Filebeat and Metricbeat playbooks.
 
-A success installation of Filebeat should yield the following response on Kibana:
+A successful installation of Filebeat should yield the following response on Kibana:
 
 - ![Success](https://github.com/Majohn89/Works-Completed/blob/018057e0afd64e94bacf4a4c48bfffe05e757811/Diagrams/FileBeatModuleStatus%202.27.21.PNG)
 
-A successfult insllation of Metricbeat should yield the following response on Kinbana:
+A successful insllation of Metricbeat should yield the following response on Kinbana:
 
 - ![Sucess](https://github.com/Majohn89/Works-Completed/blob/018057e0afd64e94bacf4a4c48bfffe05e757811/Diagrams/MetricBeatModuleStatus%202.27.21.PNG)
 
