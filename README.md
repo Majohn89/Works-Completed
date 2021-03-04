@@ -29,9 +29,9 @@ It does this by shifting attack traffic from the corporate server to a public cl
 This system is utilizing jump box VM to manage the network. 
 - This is advantageous because we have implemented more hardened security measures on it and it can manage the other systerms within our security zone and overall network.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the files of VMs on the network and system system metrics.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the files of VMs on the network and system metrics. We are using Filebeat and Metricbeat on our system.
+- Filebeat is a lightweight shipper for forwarding and centralizing log data. Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing. 
+- Metricbeat is a lightweight shipper that you can install on your servers to periodically collect metrics from the operating system and from services running on the server. Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
