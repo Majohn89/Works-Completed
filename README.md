@@ -36,9 +36,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - **Metricbeat** is a lightweight shipper that you can install on your servers to periodically collect metrics from the operating system and from services running on the server. Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function   | IP Address | Operating System |
 |----------|------------|------------|------------------|
 | Jump Box | Gateway    | 10.0.0.4   | Linux            |
 | Web-1    | Webserver  | 10.0.0.5   | Linux            |
