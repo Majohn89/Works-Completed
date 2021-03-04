@@ -72,12 +72,12 @@ The playbook implements the following tasks:
 - Install Docker python module
 - Set the vm.max_map_count to 262144
 
-The playbook is duplicated below:
+You can view the playbook here:
 - [Ansible/install-elk.yml](https://github.com/Majohn89/Works-Completed/blob/69d903e99b94a18bdd08ce87c33ba6550f2e12d0/Ansible/install-elk.yml)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[Diagrams/ELKStack sebp 2.22.21.PNG](https://github.com/Majohn89/Works-Completed/blob/8d5c7a740f4cf6081eb69885345a30165cc4b4cd/Diagrams/ELKStack%20sebp%202.22.21.PNG)
+![Diagrams/ELKStack sebp 2.22.21.PNG](https://github.com/Majohn89/Works-Completed/blob/8d5c7a740f4cf6081eb69885345a30165cc4b4cd/Diagrams/ELKStack%20sebp%202.22.21.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
