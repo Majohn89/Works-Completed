@@ -37,11 +37,12 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The configuration details of each machine may be found below.
 
+| Name     | Function   | IP Address | Operating System |
 |----------|------------|------------|------------------|
 | Jump Box | Gateway    | 10.0.0.4   | Linux            |
 | Web-1    | Webserver  | 10.0.0.5   | Linux            |
 | Web-2    | Webserver  | 10.0.0.6   | Linux            |
-| Web-3    | Webserver  | 10.0.0.7   | Linux            |
+| Web-2    | Webserver  | 10.0.0.7   | Linux            |
 | ELK      | Monitoring | 10.1.0.4   | Linux            |
 
 ### Access Policies
@@ -59,9 +60,9 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | Yes                 | 73.7.95.212          |
-| Web1     | No                  | 10.0.0.4             |
-| Web2     | No                  | 10.0.0.4             |
-| Web3     | No                  | 10.0.0.4             |
+| Web-1     | No                  | 10.0.0.4             |
+| Web-2     | No                  | 10.0.0.4             |
+| Web-3     | No                  | 10.0.0.4             |
 | ELK      | No                  | 10.0.0.4             |
 
 ### Elk Configuration
