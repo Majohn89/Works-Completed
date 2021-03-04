@@ -73,7 +73,7 @@ The playbook implements the following tasks:
 - Set the vm.max_map_count to 262144
 
 The playbook is duplicated below:
-![Ansible/install-elk.yml](https://github.com/Majohn89/Works-Completed/blob/69d903e99b94a18bdd08ce87c33ba6550f2e12d0/Ansible/install-elk.yml)
+- [Ansible/install-elk.yml](https://github.com/Majohn89/Works-Completed/blob/69d903e99b94a18bdd08ce87c33ba6550f2e12d0/Ansible/install-elk.yml)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
