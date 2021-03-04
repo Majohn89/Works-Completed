@@ -32,8 +32,8 @@ This system is utilizing jump box VM to manage the network.
 - This is advantageous because we have implemented more hardened security measures on it and it can manage the other systerms within our security zone and overall network.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the files of VMs on the network and system metrics. We are using Filebeat and Metricbeat on our system.
-- Filebeat is a lightweight shipper for forwarding and centralizing log data. Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing. 
-- Metricbeat is a lightweight shipper that you can install on your servers to periodically collect metrics from the operating system and from services running on the server. Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
+- **Filebeat** is a lightweight shipper for forwarding and centralizing log data. Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing. 
+- **Metricbeat** is a lightweight shipper that you can install on your servers to periodically collect metrics from the operating system and from services running on the server. Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -86,10 +86,12 @@ This ELK server is configured to monitor the following machines:
 - _TODO: List the IP addresses of the machines you are monitoring_
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
+- **Filebeat**
+- **Metricbeat**
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- **Filebeat** detects changes to the filesystem. We use is to to collect Apache logs.
+- **Metricbeat** detects changes in the system metrics, such as CPU usage. Weuse it to detect SSH login attempts, failed **sudo** escalation, and CPU/RAM statistics.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
