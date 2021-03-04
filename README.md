@@ -26,7 +26,7 @@ Load balancing plays an important security role as computing moves evermore to t
 The offloading function of a load balancer defends an organization from DDOS attacks. 
 It does this by shifting attack traffic from the corporate server to a public cloud provider.
 
-- _TODO: What is the advantage of a jump box?_
+This system is utilizing jump box VM to manage the network. This is advantageous because we have implemented more hardened security measures on it and it can manage the other systerms within our security zone and overall network.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the files of VMs on the network and system system metrics.
 - _TODO: What does Filebeat watch for?_
