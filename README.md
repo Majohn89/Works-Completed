@@ -112,5 +112,6 @@ SSH into the control node and follow the steps below:
 
 You will see this screen if the installation succeeded.
 
+- ![Success](https://github.com/Majohn89/Works-Completed/blob/60bfdb43ebb360360b03efd471ffe4fc3dfbf7aa/Diagrams/successfullaunch%203.4.21.PNG)
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
