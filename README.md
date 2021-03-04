@@ -77,7 +77,7 @@ The playbook is duplicated below:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Diagrams/ELKStack sebp 2.22.21.PNG](https://github.com/Majohn89/Works-Completed/blob/8d5c7a740f4cf6081eb69885345a30165cc4b4cd/Diagrams/ELKStack%20sebp%202.22.21.PNG)
+[Diagrams/ELKStack sebp 2.22.21.PNG](https://github.com/Majohn89/Works-Completed/blob/8d5c7a740f4cf6081eb69885345a30165cc4b4cd/Diagrams/ELKStack%20sebp%202.22.21.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
