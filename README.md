@@ -93,6 +93,10 @@ These Beats allow us to collect the following information from each machine:
 - **Filebeat** detects changes to the filesystem. We use is to to collect Apache logs.
 - **Metricbeat** detects changes in the system metrics, such as CPU usage. Weuse it to detect SSH login attempts, failed **sudo** escalation, and CPU/RAM statistics.
 
+The following playbooks will install Filebeat and Metricbeat:
+- [Filebeat](https://github.com/Majohn89/Works-Completed/blob/4d2427801ff3edfa7594dadbb4101c9e918dcf75/Ansible/filebeat-playbook.yml)
+- [Metricbeat](https://github.com/Majohn89/Works-Completed/blob/4d2427801ff3edfa7594dadbb4101c9e918dcf75/Ansible/metricbeat-playbook.yml)
+
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
